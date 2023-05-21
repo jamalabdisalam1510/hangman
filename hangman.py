@@ -57,7 +57,7 @@ def hangman_game():
                 print("Good job, you got the answer!!!")
                 break
             else:    
-                print(f"Nice! the current status is {guessresponse}\n")
+                print(f"Good guess! the current status is {guessresponse}\n")
     print(f"The word was: {static_answer}")
 
 
